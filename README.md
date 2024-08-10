@@ -22,3 +22,16 @@ pdfplumber uses the PDFMiner library, a Python library that provides a low-level
 2. Project Scope: The project will focus on a pdfplumber that can extract text, tables, images, and other information from PDFs.
 3. Project Deliverables: The project will deliver a streamlit app that displays extracted data in tables from PDF files.
 
+# Approach
+## Bounding Box Method
+The library also leverages bounding box analysis to identify and extract elements within the PDF based on their spatial coordinates. This enables precise layout and formatting extraction.
+1. Release_details.py and Component_details.py-Handle specific data extraction logic for release and component details.
+2. Utilities. py-Provide utility functions for extracting and processing PDF data.
+3. Main. py-Extract and process tables from PDF documents.
+4. Protected Attributes and Methods: Indicated by a single underscore (_).
+
+# Output
+Used the streamlit interface to display "Release Details" and "Component Details" by clicking the buttons and using "mysql connector" to display them in mysql workbench.
+
+# Conclusion
+pdfplumber, a versatile Python library for automating PDF data extraction. By leveraging pdfplumber's methods and functions, you can now efficiently parse PDF documents, extract structured data, and integrate these capabilities into our own applications.
